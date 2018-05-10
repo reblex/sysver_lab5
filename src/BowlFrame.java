@@ -1,5 +1,5 @@
 public class BowlFrame {
-    private static int[] frameSc;
+    private int[] frameSc;
 
     public BowlFrame(int... scores) {
         frameSc = scores;
