@@ -21,7 +21,12 @@ public class BowlingGame {
             int frameScore = 0;
             if(bf[i].isStrike()){ //strike
                 frameScore += bf[i].getScore();
-                frameScore += bf[i+1].getScore();
+                if(bf[i+1].isStrike()){
+                    frameScore += bf[i+1].getScore();
+                    frameScore += bf[i+2].getFirstVal();
+                }else{
+                    frameScore += bf[i+1].getScore();
+                }
             }else if(bf[i].isSpare()){ //spare
                 frameScore += bf[i].getScore();
                 frameScore += bf[i+1].getFirstVal();
