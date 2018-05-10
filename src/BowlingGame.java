@@ -17,8 +17,15 @@ public class BowlingGame {
     }
     public int getScore(){
         int gameScore = 0;
-        for(int i = 0; i < 10; i++) {
-            gameScore += bf[i].getScore();
+        for(int i = 0; i < 10; i++){
+            int frameScore = 0;
+            if(bf[i].isStrike()){
+                frameScore += bf[i].getScore();
+                frameScore += bf[i+1].getScore();
+            }else{
+                frameScore += bf[i].getScore();
+            }
+            gameScore += frameScore;
         }
         return gameScore;
     }
