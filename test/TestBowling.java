@@ -203,4 +203,21 @@ public class TestBowling {
         bg.addScore(new BowlFrame(10,0,10,10));
         assertEquals(300, bg.getScore());
     }
+
+    @SuppressWarnings("deprecation")
+    @Test
+    public void BowlingGame_getScore_validGameRealGame_return135() {
+        BowlingGame bg = new BowlingGame();
+        bg.addScore(new BowlFrame(6,3));
+        bg.addScore(new BowlFrame(7,1));
+        bg.addScore(new BowlFrame(8,2));
+        bg.addScore(new BowlFrame(7,2));
+        bg.addScore(new BowlFrame(10,0));
+        bg.addScore(new BowlFrame(6,2));
+        bg.addScore(new BowlFrame(7,3));
+        bg.addScore(new BowlFrame(10,0));
+        bg.addScore(new BowlFrame(8,0));
+        bg.addScore(new BowlFrame(7,3,10));
+        assertEquals(135, bg.getScore());
+    }
 }
