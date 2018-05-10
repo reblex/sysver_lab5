@@ -21,4 +21,16 @@ public class BowlFrame {
         }
         return strike;
     }
+    public Boolean isSpare(){
+        Boolean spare = false;
+        int val = frameSc[0] + frameSc[1];
+        if(val == 10){
+            spare = true;
+        }
+        return spare;
+    }
+
+    public int getFirstVal() {
+        return frameSc[0];
+    }
 }
