@@ -10,4 +10,7 @@ public class BowlFrame {
         int arr[] = {score1, score2};
         return arr;
     }
+    public int getScore(){
+        return score1+score2;
+    }
 }

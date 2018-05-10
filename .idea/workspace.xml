@@ -24,8 +24,8 @@
       <file leaf-file-name="TestBowling.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/TestBowling.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+            <state relative-caret-position="194">
+              <caret line="14" column="44" lean-forward="true" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -36,8 +36,12 @@
       <file leaf-file-name="BowlFrame.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/BowlFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+            <state relative-caret-position="221">
+              <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+              <folding>
+                <element signature="e#293#294#0" expanded="true" />
+                <element signature="e#321#322#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -117,7 +121,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestBowling.FrameStructure_WorkingFrame_Pass">
+  <component name="RunManager" selected="JUnit.TestBowling.getScore_validData_Return6">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -146,6 +150,23 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestBowling" />
       <option name="METHOD_NAME" value="FrameStructure_WorkingFrame_Pass" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="TestBowling.getScore_validData_Return6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Syslab5" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestBowling" />
+      <option name="METHOD_NAME" value="getScore_validData_Return6" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -197,9 +218,11 @@
     <list>
       <item itemvalue="JUnit.FullTest" />
       <item itemvalue="JUnit.TestBowling.FrameStructure_WorkingFrame_Pass" />
+      <item itemvalue="JUnit.TestBowling.getScore_validData_Return6" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestBowling.getScore_validData_Return6" />
         <item itemvalue="JUnit.TestBowling.FrameStructure_WorkingFrame_Pass" />
       </list>
     </recent_temporary>
@@ -297,8 +320,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/TestBowling.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+        <state relative-caret-position="194">
+          <caret line="14" column="44" lean-forward="true" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -307,8 +330,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BowlFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        <state relative-caret-position="221">
+          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+          <folding>
+            <element signature="e#293#294#0" expanded="true" />
+            <element signature="e#321#322#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
