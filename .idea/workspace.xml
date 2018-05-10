@@ -12,11 +12,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TestBowling.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestBowling.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/TestBowling.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="449">
-              <caret line="32" column="43" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
+            <state relative-caret-position="381">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -24,11 +24,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BowlingGame.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BowlingGame.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/BowlingGame.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
-              <caret line="1" column="1" lean-forward="true" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
+              <caret line="1" column="52" selection-start-line="1" selection-start-column="52" selection-end-line="1" selection-end-column="52" />
+              <folding>
+                <element signature="e#213#214#0" expanded="true" />
+                <element signature="e#238#239#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -65,8 +69,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/BowlingScore.java" />
         <option value="$PROJECT_DIR$/src/BowlFrame.java" />
-        <option value="$PROJECT_DIR$/src/BowlingGame.java" />
         <option value="$PROJECT_DIR$/test/TestBowling.java" />
+        <option value="$PROJECT_DIR$/src/BowlingGame.java" />
       </list>
     </option>
   </component>
@@ -250,9 +254,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FullTest - 2018.05.10 at 09h 24m 41s.xml">
-      <configuration name="FullTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestBowling_FrameStructure_WorkingFrame_Pass - 2018.05.10 at 09h 29m 57s.xml">
       <configuration name="TestBowling.FrameStructure_WorkingFrame_Pass" configurationId="JUnit" />
     </history-entry>
@@ -280,6 +281,9 @@
     <history-entry file="FullTest - 2018.05.10 at 09h 55m 12s.xml">
       <configuration name="FullTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="FullTest - 2018.05.10 at 10h 05m 06s.xml">
+      <configuration name="FullTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -293,12 +297,12 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.38150904" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38150904" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -321,6 +325,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="1" lean-forward="true" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
+          <folding>
+            <element signature="e#213#214#0" expanded="true" />
+            <element signature="e#238#239#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -348,19 +356,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BowlingGame.java">
+    <entry file="file://$PROJECT_DIR$/test/TestBowling.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="1" lean-forward="true" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
+        <state relative-caret-position="381">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/TestBowling.java">
+    <entry file="file://$PROJECT_DIR$/src/BowlingGame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="32" column="43" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
+        <state relative-caret-position="17">
+          <caret line="1" column="52" selection-start-line="1" selection-start-column="52" selection-end-line="1" selection-end-column="52" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#213#214#0" expanded="true" />
+            <element signature="e#238#239#0" expanded="true" />
           </folding>
         </state>
       </provider>
