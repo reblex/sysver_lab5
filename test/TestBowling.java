@@ -26,4 +26,11 @@ public class TestBowling {
         BowlFrame fr = new BowlFrame(2,4);
         assertEquals(6, fr.getScore());
     }
+
+    @SuppressWarnings("deprecation")
+    @Test
+    public void CreateGame_validData_return10() {
+        BowlingGame bg = new BowlingGame();
+        assertEquals(10, bg.getFrames().length);
+    }
 }
