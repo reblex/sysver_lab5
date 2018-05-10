@@ -22,8 +22,14 @@ public class BowlingGame {
             if(i == 8) {
                 if (bf[i].isStrike() && bf[i+1].isStrike()){
                     frameScore += bf[i].getScore();
-                    frameScore += bf[i+1].getScore();
-                    frameScore += bf[i+2].getFirstVal();
+                    int lastFrame[] = bf[i+1].getFrame();
+                    if(lastFrame[0] == 10){
+                        frameScore += lastFrame[0];
+                        frameScore += lastFrame[2];
+                    }else{
+                        frameScore += lastFrame[0];
+                        frameScore += lastFrame[1];
+                    }
                 }else{
                     frameScore += calculateFrameScore(i);
                 }
