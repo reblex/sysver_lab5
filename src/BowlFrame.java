@@ -1,16 +1,17 @@
 public class BowlFrame {
-    private static int score1;
-    private static int score2;
+    private static int[] frameSc;
 
-    public BowlFrame(int s1, int s2) {
-        score1 = s1;
-        score2 = s2;
+    public BowlFrame(int... scores) {
+        frameSc = scores;
     }
     public int[] getFrame(){
-        int arr[] = {score1, score2};
-        return arr;
+        return frameSc;
     }
     public int getScore(){
-        return score1+score2;
+        int total = 0;
+        for(int i = 0; i < frameSc.length; i++){
+            total += frameSc[i];
+        }
+        return total;
     }
 }
