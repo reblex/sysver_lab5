@@ -15,8 +15,8 @@
       <file leaf-file-name="TestBowling.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/TestBowling.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="92" column="35" selection-start-line="92" selection-start-column="35" selection-end-line="92" selection-end-column="35" />
+            <state relative-caret-position="558">
+              <caret line="118" column="24" selection-start-line="118" selection-start-column="24" selection-end-line="118" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -312,9 +312,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestBowling_BowlingGame_getScore_validGame_return81 - 2018.05.10 at 11h 01m 37s.xml">
-      <configuration name="TestBowling.BowlingGame_getScore_validGame_return81" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestBowling_BowlingGame_getScore_validGame_return81 - 2018.05.10 at 11h 03m 54s.xml">
       <configuration name="TestBowling.BowlingGame_getScore_validGame_return81" configurationId="JUnit" />
     </history-entry>
@@ -340,6 +337,9 @@
       <configuration name="FullTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="FullTest - 2018.05.10 at 11h 27m 53s.xml">
+      <configuration name="FullTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FullTest - 2018.05.10 at 11h 28m 10s.xml">
       <configuration name="FullTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -433,8 +433,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/TestBowling.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="92" column="35" selection-start-line="92" selection-start-column="35" selection-end-line="92" selection-end-column="35" />
+        <state relative-caret-position="558">
+          <caret line="118" column="24" selection-start-line="118" selection-start-column="24" selection-end-line="118" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
