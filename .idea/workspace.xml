@@ -15,8 +15,8 @@
       <file leaf-file-name="TestBowling.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/TestBowling.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="558">
-              <caret line="186" column="23" selection-start-line="186" selection-start-column="23" selection-end-line="186" selection-end-column="23" />
+            <state relative-caret-position="575">
+              <caret line="202" column="39" lean-forward="true" selection-start-line="202" selection-start-column="39" selection-end-line="202" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -313,12 +313,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestBowling_BowlingGame_getScore_validGameMultipleStrikes_return112 - 2018.05.10 at 11h 37m 07s.xml">
-      <configuration name="TestBowling.BowlingGame_getScore_validGameMultipleStrikes_return112" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FullTest - 2018.05.10 at 11h 37m 25s.xml">
-      <configuration name="FullTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="FullTest - 2018.05.10 at 11h 42m 25s.xml">
       <configuration name="FullTest" configurationId="JUnit" />
     </history-entry>
@@ -341,6 +335,12 @@
       <configuration name="FullTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="FullTest - 2018.05.10 at 12h 13m 25s.xml">
+      <configuration name="FullTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FullTest - 2018.05.10 at 12h 14m 40s.xml">
+      <configuration name="FullTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FullTest - 2018.05.10 at 12h 16m 09s.xml">
       <configuration name="FullTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -442,8 +442,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/TestBowling.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="186" column="23" selection-start-line="186" selection-start-column="23" selection-end-line="186" selection-end-column="23" />
+        <state relative-caret-position="575">
+          <caret line="202" column="39" lean-forward="true" selection-start-line="202" selection-start-column="39" selection-end-line="202" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
