@@ -12,11 +12,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TestBowling.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TestBowling.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/TestBowling.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="443">
-              <caret line="115" column="40" lean-forward="true" selection-start-line="115" selection-start-column="40" selection-end-line="115" selection-end-column="40" />
+            <state relative-caret-position="524">
+              <caret line="136" column="5" lean-forward="true" selection-start-line="136" selection-start-column="5" selection-end-line="136" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -24,11 +24,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BowlingGame.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BowlingGame.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BowlingGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+            <state relative-caret-position="459">
+              <caret line="27" column="53" lean-forward="true" selection-start-line="27" selection-start-column="53" selection-end-line="27" selection-end-column="53" />
               <folding>
                 <element signature="e#213#214#0" expanded="true" />
                 <element signature="e#238#239#0" expanded="true" />
@@ -71,8 +71,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/BowlingScore.java" />
         <option value="$PROJECT_DIR$/src/BowlFrame.java" />
-        <option value="$PROJECT_DIR$/test/TestBowling.java" />
         <option value="$PROJECT_DIR$/src/BowlingGame.java" />
+        <option value="$PROJECT_DIR$/test/TestBowling.java" />
       </list>
     </option>
   </component>
@@ -313,9 +313,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestBowling_BowlingGame_getScore_validGameWithStrike_return94 - 2018.05.10 at 11h 15m 51s.xml">
-      <configuration name="TestBowling.BowlingGame_getScore_validGameWithStrike_return94" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestBowling_BowlingGame_getScore_validGame_return81 - 2018.05.10 at 11h 17m 15s.xml">
       <configuration name="TestBowling.BowlingGame_getScore_validGame_return81" configurationId="JUnit" />
     </history-entry>
@@ -343,6 +340,9 @@
     <history-entry file="TestBowling_BowlingGame_getScore_validGameMultipleStrikes_return112 - 2018.05.10 at 11h 37m 07s.xml">
       <configuration name="TestBowling.BowlingGame_getScore_validGameMultipleStrikes_return112" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="FullTest - 2018.05.10 at 11h 37m 25s.xml">
+      <configuration name="FullTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -356,7 +356,7 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3018066" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3018066" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
@@ -366,7 +366,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.2794899" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.2794899" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -381,14 +381,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/BowlingGame.java</url>
-          <line>21</line>
-          <properties />
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="15" />
     </breakpoint-manager>
   </component>
@@ -415,16 +407,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test.java" />
-    <entry file="file://$PROJECT_DIR$/test/TestBowling.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="115" column="40" lean-forward="true" selection-start-line="115" selection-start-column="40" selection-end-line="115" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/BowlFrame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -442,11 +424,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BowlingGame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+        <state relative-caret-position="459">
+          <caret line="27" column="53" lean-forward="true" selection-start-line="27" selection-start-column="53" selection-end-line="27" selection-end-column="53" />
           <folding>
             <element signature="e#213#214#0" expanded="true" />
             <element signature="e#238#239#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/TestBowling.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="524">
+          <caret line="136" column="5" lean-forward="true" selection-start-line="136" selection-start-column="5" selection-end-line="136" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
