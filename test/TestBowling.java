@@ -6,7 +6,7 @@ public class TestBowling {
 
     @SuppressWarnings("deprecation")
     @Test
-    public void FrameStructure_WorkingFrame_Pass() {
+    public void BowlFrame_FrameStructure_WorkingFrame_returnFrame() {
         BowlFrame fr = new BowlFrame(2,4);
         int arr[] = {2, 4};
         int frArr[] = fr.getFrame();
@@ -22,15 +22,32 @@ public class TestBowling {
 
     @SuppressWarnings("deprecation")
     @Test
-    public void getScore_validData_Return6() {
+    public void BowlFrame_getScore_validData_Return6() {
         BowlFrame fr = new BowlFrame(2,4);
         assertEquals(6, fr.getScore());
     }
 
     @SuppressWarnings("deprecation")
     @Test
-    public void CreateGame_validData_return10() {
+    public void BowlingGame_CreateGame_validData_return10() {
         BowlingGame bg = new BowlingGame();
         assertEquals(10, bg.getFrames().length);
+    }
+
+    @SuppressWarnings("deprecation")
+    @Test
+    public void BowlingGame_getScore_validGame_return81() {
+        BowlingGame bg = new BowlingGame();
+        bg.addScore(new BowlFrame(1,5));
+        bg.addScore(new BowlFrame(3,6));
+        bg.addScore(new BowlFrame(7,2));
+        bg.addScore(new BowlFrame(3,6));
+        bg.addScore(new BowlFrame(4,4));
+        bg.addScore(new BowlFrame(5,3));
+        bg.addScore(new BowlFrame(3,3));
+        bg.addScore(new BowlFrame(4,5));
+        bg.addScore(new BowlFrame(8,1));
+        bg.addScore(new BowlFrame(2,6));
+        assertEquals(81, bg.getScore());
     }
 }
