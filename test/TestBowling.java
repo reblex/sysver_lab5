@@ -152,4 +152,21 @@ public class TestBowling {
         bg.addScore(new BowlFrame(2,8,7));
         assertEquals(90, bg.getScore());
     }
+
+    @SuppressWarnings("deprecation")
+    @Test
+    public void BowlingGame_getScore_validGameStrikeAsLastFrame_return92() {
+        BowlingGame bg = new BowlingGame();
+        bg.addScore(new BowlFrame(1,5));
+        bg.addScore(new BowlFrame(3,6));
+        bg.addScore(new BowlFrame(7,2));
+        bg.addScore(new BowlFrame(3,6));
+        bg.addScore(new BowlFrame(4,4));
+        bg.addScore(new BowlFrame(5,3));
+        bg.addScore(new BowlFrame(3,3));
+        bg.addScore(new BowlFrame(4,5));
+        bg.addScore(new BowlFrame(8,1));
+        bg.addScore(new BowlFrame(10,7,2));
+        assertEquals(92, bg.getScore());
+    }
 }
