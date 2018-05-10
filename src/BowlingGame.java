@@ -16,10 +16,10 @@ public class BowlingGame {
         framesPlayed++;
     }
     public int getScore(){
-        int score = 0;
-        for(int i = 0; i < 10; i++){
-            score += bf[i].getScore();
+        int gameScore = 0;
+        for(int i = 0; i < 10; i++) {
+            gameScore += bf[i].getScore();
         }
-        return score;
+        return gameScore;
     }
 }

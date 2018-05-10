@@ -12,11 +12,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TestBowling.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestBowling.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/TestBowling.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="49" column="37" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="37" />
+            <state relative-caret-position="99">
+              <caret line="45" column="40" lean-forward="true" selection-start-line="45" selection-start-column="40" selection-end-line="45" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -24,11 +24,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BowlingGame.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BowlingGame.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/BowlingGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+            <state relative-caret-position="340">
+              <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
               <folding>
                 <element signature="e#213#214#0" expanded="true" />
                 <element signature="e#238#239#0" expanded="true" />
@@ -40,8 +40,8 @@
       <file leaf-file-name="BowlFrame.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BowlFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+            <state relative-caret-position="340">
+              <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
               <folding>
                 <element signature="e#96#97#0" expanded="true" />
                 <element signature="e#128#129#0" expanded="true" />
@@ -68,9 +68,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/BowlingScore.java" />
-        <option value="$PROJECT_DIR$/src/BowlingGame.java" />
-        <option value="$PROJECT_DIR$/src/BowlFrame.java" />
         <option value="$PROJECT_DIR$/test/TestBowling.java" />
+        <option value="$PROJECT_DIR$/src/BowlFrame.java" />
+        <option value="$PROJECT_DIR$/src/BowlingGame.java" />
       </list>
     </option>
   </component>
@@ -134,7 +134,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FullTest">
+  <component name="RunManager" selected="JUnit.TestBowling.BowlingGame_getScore_validGame_return81">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -163,6 +163,23 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestBowling" />
       <option name="METHOD_NAME" value="BowlingGame_CreateGame_validData_return10" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="TestBowling.BowlingGame_getScore_validGameWithStrike_return94" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Syslab5" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestBowling" />
+      <option name="METHOD_NAME" value="BowlingGame_getScore_validGameWithStrike_return94" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -268,10 +285,12 @@
       <item itemvalue="JUnit.TestBowling.getScore_validData_Return6" />
       <item itemvalue="JUnit.TestBowling.BowlingGame_getScore_validGame_return81" />
       <item itemvalue="JUnit.TestBowling.BowlingGame_CreateGame_validData_return10" />
+      <item itemvalue="JUnit.TestBowling.BowlingGame_getScore_validGameWithStrike_return94" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TestBowling.BowlingGame_getScore_validGame_return81" />
+        <item itemvalue="JUnit.TestBowling.BowlingGame_getScore_validGameWithStrike_return94" />
         <item itemvalue="JUnit.TestBowling.BowlingGame_CreateGame_validData_return10" />
         <item itemvalue="JUnit.TestBowling.getScore_validData_Return6" />
         <item itemvalue="JUnit.TestBowling.FrameStructure_WorkingFrame_Pass" />
@@ -292,12 +311,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FullTest - 2018.05.10 at 10h 30m 09s.xml">
-      <configuration name="FullTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FullTest - 2018.05.10 at 10h 30m 27s.xml">
-      <configuration name="FullTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestBowling_BowlingGame_getScore_validGame_return81 - 2018.05.10 at 10h 31m 07s.xml">
       <configuration name="TestBowling.BowlingGame_getScore_validGame_return81" configurationId="JUnit" />
     </history-entry>
@@ -321,6 +334,12 @@
     </history-entry>
     <history-entry file="TestBowling_BowlingGame_getScore_validGame_return81 - 2018.05.10 at 11h 04m 09s.xml">
       <configuration name="TestBowling.BowlingGame_getScore_validGame_return81" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FullTest - 2018.05.10 at 11h 05m 37s.xml">
+      <configuration name="FullTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestBowling_BowlingGame_getScore_validGameWithStrike_return94 - 2018.05.10 at 11h 15m 51s.xml">
+      <configuration name="TestBowling.BowlingGame_getScore_validGameWithStrike_return94" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -360,14 +379,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/BowlFrame.java</url>
-          <line>4</line>
-          <properties />
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="9" />
     </breakpoint-manager>
   </component>
@@ -394,21 +405,20 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test.java" />
-    <entry file="file://$PROJECT_DIR$/src/BowlingGame.java">
+    <entry file="file://$PROJECT_DIR$/test/TestBowling.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+        <state relative-caret-position="99">
+          <caret line="45" column="40" lean-forward="true" selection-start-line="45" selection-start-column="40" selection-end-line="45" selection-end-column="40" />
           <folding>
-            <element signature="e#213#214#0" expanded="true" />
-            <element signature="e#238#239#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BowlFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        <state relative-caret-position="340">
+          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
           <folding>
             <element signature="e#96#97#0" expanded="true" />
             <element signature="e#128#129#0" expanded="true" />
@@ -418,12 +428,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/TestBowling.java">
+    <entry file="file://$PROJECT_DIR$/src/BowlingGame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="49" column="37" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="37" />
+        <state relative-caret-position="340">
+          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#213#214#0" expanded="true" />
+            <element signature="e#238#239#0" expanded="true" />
           </folding>
         </state>
       </provider>

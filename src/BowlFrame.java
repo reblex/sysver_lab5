@@ -14,4 +14,11 @@ public class BowlFrame {
         }
         return total;
     }
+    public Boolean isStrike(){
+        Boolean strike = false;
+        if(frameSc[0] == 10){
+            strike = true;
+        }
+        return strike;
+    }
 }
